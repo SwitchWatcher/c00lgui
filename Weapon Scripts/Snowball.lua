@@ -36,6 +36,7 @@ local ThrowingSequence = false
 local SlideCooldown = 0
 local SnowballProjectiles, SnowSplosionEffects = {}, {}
 local disableJump = false
+
 local AnimSpeeds = {
 	0.5, -- idle
 	5, -- walking
@@ -43,6 +44,7 @@ local AnimSpeeds = {
 	7, -- jumping
 	7 -- falling
 }
+
 --[[ PATCHED BY SLASHCODERS
 	for i, v in pairs(char:children()) do
 		if v.Name == "Cheese" then

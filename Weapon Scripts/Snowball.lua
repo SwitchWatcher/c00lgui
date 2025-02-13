@@ -37,10 +37,10 @@ local SlideCooldown = 0
 local SnowballProjectiles, SnowSplosionEffects = {}, {}
 local disableJump = false
 local AnimSpeeds = {
-	0.5 -- idle
-	5 -- walking
-	6.5 -- running
-	7 -- jumping
+	0.5, -- idle
+	5, -- walking
+	6.5, -- running
+	7, -- jumping
 	7 -- falling
 }
 --[[ PATCHED BY SLASHCODERS
